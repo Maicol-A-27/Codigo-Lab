@@ -1,16 +1,1 @@
-#include <ESP32Servo.h>   // Librería especial para ESP32
-
-Servo servo;
-
-void setup() {
-  servo.setPeriodHertz(70);   // Frecuencia típica de servos (50 Hz)
-  servo.attach(13);           // Conecta el servo al pin GPIO 13
-}
-
-void loop() {
-  servo.write(0);             // Mueve a 0 grados
-  delay(500);                // Espera 1 segundo
-
-  servo.write(60);            // Mueve a 45 grados
-  delay(500);                // Espera 1 segundo
-}
+Codgio para ESP32
